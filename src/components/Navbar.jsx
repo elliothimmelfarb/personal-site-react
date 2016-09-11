@@ -11,7 +11,7 @@ const MyNavbar = () => (
   <Navbar inverse fixedTop fluid className={styles.nav}>
     <Navbar.Header>
       <Navbar.Brand>
-        <a href="#">
+        <a href="">
           <img
             className={styles.logo}
             src={logo}
@@ -23,28 +23,64 @@ const MyNavbar = () => (
     </Navbar.Header>
     <Navbar.Collapse>
       <Nav pullRight>
-        <Link className={styles.link} spy activeClass={styles.linkActive} to="home" offset={-53} smooth duration={700}>
+        <Link
+          className={styles.link}
+          spy activeClass={styles.linkActive}
+          to="home"
+          offset={-56}
+          smooth
+          duration={700}
+        >
           <NavItem className={styles.navItem}>
             HOME
           </NavItem>
         </Link>
-        <Link className={styles.link} spy activeClass={styles.linkActive} to="aboutMe" offset={-53} smooth duration={700}>
+        <Link
+          className={styles.link}
+          spy
+          activeClass={styles.linkActive}
+          to="aboutMe"
+          offset={-56}
+          smooth
+          duration={700}
+        >
           <NavItem className={styles.navItem}>
             ABOUT ME
           </NavItem>
         </Link>
-        <Link className={styles.link} spy activeClass={styles.linkActive} to="portfolio" offset={-53} smooth duration={700}>
+        <Link
+          className={styles.link}
+          spy activeClass={styles.linkActive}
+          to="portfolio"
+          offset={-56}
+          smooth
+          duration={700}
+        >
           <NavItem className={styles.navItem}>
             PORTFOLIO
           </NavItem>
         </Link>
-        <Link className={styles.link} spy activeClass={styles.linkActive} to="blog" offset={-53} smooth duration={700}>
+        <Link
+          className={styles.link}
+          spy activeClass={styles.linkActive}
+          to="blog"
+          offset={-56}
+          smooth
+          duration={700}
+        >
           <NavItem className={styles.navItem}>
             BLOG
           </NavItem>
         </Link>
-        <Link  className={styles.link}>
-          <NavItem className={styles.navItem} spy activeClass={styles.linkActive} href="#">RESUME</NavItem>
+        <Link className={styles.link}>
+          <NavItem
+            className={styles.navItem}
+            spy
+            activeClass={styles.linkActive}
+            href="#"
+          >
+            RESUME
+          </NavItem>
         </Link>
       </Nav>
     </Navbar.Collapse>
