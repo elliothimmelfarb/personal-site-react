@@ -1,7 +1,7 @@
 {
-  "name": "react-webpack-babel",
+  "name": "personal-site-react",
   "version": "0.0.3",
-  "description": "React Webpack Babel Starter Kit",
+  "description": "Elliot Himmelfarb's Personal Site in React",
   "main": "''",
   "scripts": {
     "build": "webpack --config webpack.production.config.js --progress --profile --colors",
@@ -10,16 +10,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alicoding/react-webpack-babel"
+    "url": "https://github.com/elliothimmelfarb/personal-site-react"
   },
-  "author": "Ali Al Dallal",
+  "author": "Elliot Himmelfarb",
   "license": "MIT",
-  "homepage": "https://github.com/alicoding/react-webpack-babel#readme",
+  "homepage": "https://github.com/elliothimmelfarb/personal-site-react#readme",
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.3",
+    "material-ui": "^0.15.4",
     "node-sass": "^3.9.2",
     "react": "15.3.0",
+    "react-bootstrap": "^0.30.3",
     "react-dom": "15.3.0",
+    "react-scroll": "^1.3.1",
+    "react-tap-event-plugin": "^1.0.0",
     "sass-loader": "^4.0.1"
   },
   "devDependencies": {
@@ -32,6 +36,11 @@
     "babel-preset-react": "6.11.1",
     "babel-runtime": "^6.11.6",
     "css-loader": "0.25.0",
+    "eslint": "^3.4.0",
+    "eslint-config-airbnb": "^10.0.1",
+    "eslint-plugin-import": "^1.14.0",
+    "eslint-plugin-jsx-a11y": "^2.2.1",
+    "eslint-plugin-react": "^6.2.0",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "0.9.0",
     "html-webpack-plugin": "^2.22.0",

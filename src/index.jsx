@@ -1,5 +1,10 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import { render } from 'react-dom';
-import App from './app.jsx';
+import PersonalSite from './PersonalSite';
 
-render(<App/>, document.querySelector("#app"));
+const App = () => (
+  <PersonalSite />
+);
+
+render(<App />, document.querySelector('#app'));
